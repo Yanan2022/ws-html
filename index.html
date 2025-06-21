@@ -11,13 +11,13 @@
         <nav>
             <ul>
                 <li>
-                    <a href="">Home</a>
+                    <a href="#home">Home</a>
                 </li>
                 <li>
-                    <a href="">About</a>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -25,10 +25,78 @@
 
     <main>
 
+        <section id="home">
+            <div>
+                <img src="./images/danial-ricaros-785707-unsplash-1520x1013.jpg" alt="image-profil" width="300" height="200">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </section>
+
+        <section id="about">
+            <ol>
+                <li>
+                    Nom: Danial
+                </li>
+                <li>
+                    Prénom: Ricaros
+                </li>
+                <li>
+                    Email: daniel.ricaros@gmail.com 
+                </li>
+                <li>
+                    Téléphone: 06 00 00 00 00
+                </li>
+                <li>
+                    Parcours Scolaire:
+                    <ol>
+                        <li>
+                            Lycée: Lycée Jean Jaurès
+                        </li>
+                        <li>
+                            Université: Université de Paris
+                        </li>
+                        <li>
+                            Diplôme: Licence en Informatique
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+            <iframe src="https://www.youtube.com/embed/z2jgLckP8O8" 
+                title="YouTube video player" 
+                width="560" 
+                height="315" 
+                style="border:0; max-width: 100%;"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            frameborder="0"></iframe>
+        </section>
+
+        <section id="contact">
+            <form action="#" method="post">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
+                <br>
+
+                <button type="submit">Soumettre le formulaire</button>
+            </form>
+        </section>
+
     </main>
 
     <footer>
-
+        <p>&copy; 2023 Danial Ricaros. All rights reserved.</p>
     </footer>
     
 </body>
